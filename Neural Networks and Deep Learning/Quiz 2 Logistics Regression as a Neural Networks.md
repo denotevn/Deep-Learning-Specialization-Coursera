@@ -1,1 +1,1 @@
-## Quiz 2 
+## **It's basic of Logistic Regression and numpy tutorial**
