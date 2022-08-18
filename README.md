@@ -1,7 +1,7 @@
 # **Deep-Learning-Specialization-Coursera**
 
 # **Course 1 - Neural Networks and Deep Learning**
-> This link course : **[Neural Networks and Deep Learning](https://www.coursera.org/learn/neural-networks-deep-learning)**
+> This link of course : **[Neural Networks and Deep Learning](https://www.coursera.org/learn/neural-networks-deep-learning)**
 ### **1. Week1: Analyze the major trends driving the rise of deep learning, and give examples of where and how it is applied today.**
    + We learn about basic of Neural Network
 ### **2. Week 2: Set up a machine learning problem with a neural network mindset and use vectorization to speed up your models.**
@@ -24,7 +24,7 @@
    + Build a 2-layer neural network
 
 # **Course 2 - C2 - Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization**
-> This link course : **[Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization](coursera.org/learn/deep-neural-network)**
+> This link of course : **[Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization](coursera.org/learn/deep-neural-network)**
 ### **Week 1: Discover and experiment with a variety of different initialization methods, apply L2 regularization and dropout to avoid model overfitting, then apply gradient checking to identify errors in a fraud detection model.**
    + Give examples of how different types of initializations can lead to different results
    + Examine the importance of initialization in complex neural networks
