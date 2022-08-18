@@ -24,6 +24,7 @@
    + Build a 2-layer neural network
 
 # **Course 2 - C2 - Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization**
+> This link course : **[Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization](coursera.org/learn/deep-neural-network)**
 ### **Week 1: Discover and experiment with a variety of different initialization methods, apply L2 regularization and dropout to avoid model overfitting, then apply gradient checking to identify errors in a fraud detection model.**
    + Give examples of how different types of initializations can lead to different results
    + Examine the importance of initialization in complex neural networks
