@@ -10,3 +10,9 @@
 + Dữ liệu đào tạo của bạn có nhãn sai sẽ làm cho model của bạn thiếu độ chính xác. Để tăng độ chính xác ta cần xử lý vấn đề này
 + Cần phải đếm và so sánh lỗi của incorrect labels với lỗi của nguyên nhân khác. Sau đố fix nguyên nhân gây ra lỗi lớn nhất trước.
 ![NOTE](https://github.com/denotevn/Deep-Learning-Specialization-Coursera/blob/main/C3%20-%20Structuring%20Machine%20Learning%20Projects/image/Screenshot%20from%202022-09-04%2021-35-24.png)
+
+> **Correcting incorrect dev/test set samples:**
++ Apply the same process to your dev and test sets to make sure they continue to come from the same distribution (Tổng quát cho các bộ thử nghiệm, hoạt động tốt hơn khi dev và test đến từ cùng một phân phối)
++ Consider examining examples your algorithm got rights as well as ones it got wrong
+
++ Train/dev data may now come from slightly different distributionDữ liệu đào tạo / nhà phát triển hiện có thể đến từ các bản phân phối hơi khác nhaus
