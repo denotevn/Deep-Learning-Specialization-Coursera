@@ -14,5 +14,4 @@
 > **Correcting incorrect dev/test set samples:**
 + Apply the same process to your dev and test sets to make sure they continue to come from the same distribution (Tổng quát cho các bộ thử nghiệm, hoạt động tốt hơn khi dev và test đến từ cùng một phân phối)
 + Consider examining examples your algorithm got rights as well as ones it got wrong
-
-+ Train/dev data may now come from slightly different distributionDữ liệu đào tạo / nhà phát triển hiện có thể đến từ các bản phân phối hơi khác nhaus
++ Train/dev data may now come from slightly different distributionDữ liệu đào tạo / nhà phát triển hiện có thể đến từ các bản phân phối hơi khác nhau
