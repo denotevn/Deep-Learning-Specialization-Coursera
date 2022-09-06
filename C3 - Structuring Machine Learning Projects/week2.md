@@ -17,10 +17,12 @@
 + Train/dev data may now come from slightly different distributionDữ liệu đào tạo / nhà phát triển hiện có thể đến từ các bản phân phối hơi khác nhau
 # **Training and Testing on Different Distributions**
 + Data from web pages (200000) and data from mobile app (10000): Different Distributions
-> **OPTION 1:**Trộn lẫn tất cả (210000 images) và chia ra train/dev/test set:
+> **OPTION 1:** Trộn lẫn tất cả (210000 images) và chia ra train/dev/test set:
   + Cùng phân phối
   + Nhưng hầu hết phân phối đều đến từ tập dữ liệu web pages và đây là 1 nhược điểm lớn tren dev and test set
   + Mục tiêu sẽ trỏ thành tối ưu hoá các ảnh ở trên tập dữ liệu từ web app, nhưng chúng ta muốn là phân loại ảnh ở mobile app
-**OPTION 2:**Dev and test set will be all data from mobile app
+  ![Knowledge](https://github.com/denotevn/Deep-Learning-Specialization-Coursera/blob/main/C3%20-%20Structuring%20Machine%20Learning%20Projects/image/difference%20distributions.png)
+**OPTION 2:** Dev and test set will be all data from mobile app
   + better then option 1
   + Bất lợi: Bộ dev và test set không cùng phân phối với bộ train set
+![Knowledge](https://github.com/denotevn/Deep-Learning-Specialization-Coursera/blob/main/C3%20-%20Structuring%20Machine%20Learning%20Projects/image/Speech%20recognition%20ex.png)
