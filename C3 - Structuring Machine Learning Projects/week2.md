@@ -1,3 +1,7 @@
+> **Do tính chất mạnh mẽ của các mô hình học sâu, chúng tôi không cần phải có sự phân bổ giống nhau giữa các tập huấn luyện, nhà phát triển và thử nghiệm.**
+>
+
+
 # Carrying Out Error Analysis
 + Tập trung vào những phần có lỗi âm tính để thu được kết quả cao nhất: 
 + Ví dụ về phân loại chó mèo có 10% erorr trên tập dev. Lây 100 ví dụ từ những ví dụ sai về phân loại cho mèo
@@ -33,3 +37,22 @@
 ![More examples](https://github.com/denotevn/Deep-Learning-Specialization-Coursera/blob/main/C3%20-%20Structuring%20Machine%20Learning%20Projects/image/Bias%20Variance.png)
 
 ![More](https://github.com/denotevn/Deep-Learning-Specialization-Coursera/blob/main/C3%20-%20Structuring%20Machine%20Learning%20Projects/image/MOre%20general%20formulation.png)
+
+# **Addressing Data Mismatch** Xu ly du lieu khong khop
+  + Phân tích lỗi thủ công và tìm sự khác biệt giữa training set và dev/test set
+  + Make data more similar or collect more data similar to dev/test set:
+    + Tổng hợp dữ liệu nhân tạo trong xu ly ngon ngu (Cần thận trọng và hãy kiểm tra tập dữ liệu bạn mô phỏng có bao quát hay không)
+    + Thêm nhiễu vào âm thanh để làm cho nó giống thực tế hơn
+    + Hãy làm cho dữ liệu giọng nói giôsng với thực tế nhất, ví dụ sẽ có thêm nhiều tiếng ồn từ xe hơi, chim các toàn nhà đang thi công, ....
+# **Transfer Learning:**
+> When transfer learning makes sense
+> Transfer learning A --> B
+
+  + Task A and B have the same input x
+  + You have a lot of more data for Task A than task B
+  + Low level features from A could be helpful for learning B
+# **Multi-task Learning:**
+> When Multitask learning makes sense?
+  + Training on set of tasks that could benefit from having shared lower-level features
+  + Usualy: Amount of data you have for each task is quite similar (Thông thường: Lượng dữ liệu bạn có cho mỗi nhiệm vụ là khá giống nhau)
+  + Can train a big enough neural network to do well on all the tasks
