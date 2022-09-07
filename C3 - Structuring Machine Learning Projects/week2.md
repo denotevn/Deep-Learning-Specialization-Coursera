@@ -31,3 +31,5 @@
 ![Cat examples](https://github.com/denotevn/Deep-Learning-Specialization-Coursera/blob/main/C3%20-%20Structuring%20Machine%20Learning%20Projects/image/Mismatched%20training%20and%20devtest%20set.png)
 
 ![More examples](https://github.com/denotevn/Deep-Learning-Specialization-Coursera/blob/main/C3%20-%20Structuring%20Machine%20Learning%20Projects/image/Bias%20Variance.png)
+
+![More](https://github.com/denotevn/Deep-Learning-Specialization-Coursera/blob/main/C3%20-%20Structuring%20Machine%20Learning%20Projects/image/MOre%20general%20formulation.png)
