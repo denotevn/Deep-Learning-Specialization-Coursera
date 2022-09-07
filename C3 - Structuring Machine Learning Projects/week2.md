@@ -26,3 +26,5 @@
   + better then option 1
   + Bất lợi: Bộ dev và test set không cùng phân phối với bộ train set
 ![Knowledge](https://github.com/denotevn/Deep-Learning-Specialization-Coursera/blob/main/C3%20-%20Structuring%20Machine%20Learning%20Projects/image/Speech%20recognition%20ex.png)
+
+# **Bias and Variance with Mismatched Data Distributions**
