@@ -26,6 +26,6 @@
 > **Why appeared the ResNet network?**
 + Một vấn đề xảy ra khi xây dựng mạng CNN với nhiều lớp chập sẽ xảy ra hiện tượng Vanishing Gradient dẫn tới quá trình học tập không tốt.
 + Trước hết thì Backpropagation Algorithm là một kỹ thuật thường được sử dụng trong quá trình tranining.
-+ bổ sung Input X vào đầu ra của layer,việc này sẽ chống lại việc đạo hàm bằng 0, do vẫn còn cộng thêm X.
++ bổ sung Input X vào đầu ra của layer,việc này sẽ **chống lại việc đạo hàm bằng 0**, do vẫn còn cộng thêm X.
 
-![Resnet]()
+![Resnet](https://github.com/denotevn/Deep-Learning-Specialization-Coursera/blob/main/C4%20-%20Convolutional%20Neural%20Networks/Week%202/images/Resnet.png)
