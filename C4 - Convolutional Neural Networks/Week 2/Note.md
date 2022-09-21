@@ -8,8 +8,10 @@
 + Training with multiple GPUs
 + Local Response Normalization (LRN) - Now we dont use it
 
+![AlextNet](https://github.com/denotevn/Deep-Learning-Specialization-Coursera/blob/main/C4%20-%20Convolutional%20Neural%20Networks/Week%202/images/AlexNet.png)
+
 
 ## **[VGG-16]()**
 + Alot of parameters you have to train
 
-![VCG-16]()
+![VCG-16](https://github.com/denotevn/Deep-Learning-Specialization-Coursera/blob/main/C4%20-%20Convolutional%20Neural%20Networks/Week%202/images/VCG%20-%2016.png)
