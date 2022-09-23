@@ -1,3 +1,6 @@
+## Knowdlege this week : **[Week 2]**(https://marcossilva.github.io/en/2019/08/04/coursera-deep-learning-module-4-week-2.html)
+
+
 ## **[LeNet 5](https://www.analyticsvidhya.com/blog/2021/03/the-architecture-of-lenet-5/)**
 
 ![Lenet 5](https://github.com/denotevn/Deep-Learning-Specialization-Coursera/blob/main/C4%20-%20Convolutional%20Neural%20Networks/Week%202/images/Lenet%205.png)
@@ -21,6 +24,8 @@
 + Skip connection: take activation from one layer  and suddenly feed it to another layer even much deeper in the neural network
 
 ## **[ResNets](https://viblo.asia/p/gioi-thieu-mang-resnet-vyDZOa7R5wj)**
+>**[Mobile Net v2](https://machinethink.net/blog/mobilenet-v2/)**
+>
 + ResNet (Residual Network) được giới thiệu đến công chúng vào năm 2015 
 + Dứng vị trí đầu tiên trong cuộc thi ILSVRC and COCO 2015 với ImageNet Detection, ImageNet localization, Coco detection và Coco segmentation
 > **Why appeared the ResNet network?**
