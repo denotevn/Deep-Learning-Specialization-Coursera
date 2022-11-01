@@ -35,3 +35,5 @@
    + Use gradient checking to verify the accuracy of your backpropagation implementation
    + Apply zeros initialization, random initialization, and He initialization
    + Apply regularization to a deep learning model
+
+# **Course 3:**
