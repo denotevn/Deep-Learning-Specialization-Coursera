@@ -48,7 +48,7 @@
   + ||f(A) - f(P)||^2 + alpha <= ||f(A)-f(N)||^2)
 ## **Face Verification and Binary Classification:**
   + Alternatives to triplet loss
-  + ![Binary clf](https://github.com/denotevn/Deep-Learning-Specialization-Coursera/blob/main/C4%20-%20Convolutional%20Neural%20Networks/Week%204/images/SNN%20learning.png)
+  + ![Binary clf](https://github.com/denotevn/Deep-Learning-Specialization-Coursera/blob/main/C4%20-%20Convolutional%20Neural%20Networks/Week%204/images/Bianry%20classification%20video.png)
 
 ## **What is Neural Style Transfer?**
   + Create a new image from the style of another image
