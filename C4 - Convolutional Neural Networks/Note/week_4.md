@@ -65,4 +65,7 @@
   + Content cost function:
     + ![Cost](https://github.com/denotevn/Deep-Learning-Specialization-Coursera/blob/main/C4%20-%20Convolutional%20Neural%20Networks/Week%204/images/Content%20Cost%20Function.png)
   + Style Cost Function:
+    + ![Cost](https://github.com/denotevn/Deep-Learning-Specialization-Coursera/blob/main/C4%20-%20Convolutional%20Neural%20Networks/Week%204/images/Style%20Cost%20Function.png)
+  + Summary:
+    + ![Costs SUmmary]()
 
