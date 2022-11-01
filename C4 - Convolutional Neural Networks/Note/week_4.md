@@ -1,3 +1,7 @@
+[YOLO](https://pjreddie.com/darknet/yolo/)
+[FACE NET](https://github.com/davidsandberg/facenet)
+[How to Develop a Face Recognition System Using FaceNet in Keras](https://machinelearningmastery.com/how-to-develop-a-face-recognition-system-using-facenet-in-keras-and-an-svm-classifier/)
+
 ## **Learning Objectives**
   + Differentiate between face recognition and face verification
   + Implement one-shot learning to solve a face recognition problem
