@@ -56,3 +56,8 @@
   + In order to implement Neural Style Transfer, you need to look at the features extracted by ConvNet at various layers, the shallow and the deeper layers of a ConvNet
 ## **What are deep ConvNets learning?**
   + ![ConvNet](https://github.com/denotevn/Deep-Learning-Specialization-Coursera/blob/main/C4%20-%20Convolutional%20Neural%20Networks/Week%204/images/ConvNet_Learning.png)
+## **Cost function**
+ + ![Neural Style Transfer](https://github.com/denotevn/Deep-Learning-Specialization-Coursera/blob/main/C4%20-%20Convolutional%20Neural%20Networks/Week%204/images/Neural%20Style%20Tranfer.png)
+  + Tasks generated image G
+    + Initiate G randomly: G: 100x100x3
+    + Use gradient descent to minimize J(G)
