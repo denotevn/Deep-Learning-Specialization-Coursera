@@ -61,3 +61,8 @@
   + Tasks generated image G
     + Initiate G randomly: G: 100x100x3
     + Use gradient descent to minimize J(G)
+## **We have Content cost function and Style Cost Function**
+  + Content cost function:
+    + ![Cost](https://github.com/denotevn/Deep-Learning-Specialization-Coursera/blob/main/C4%20-%20Convolutional%20Neural%20Networks/Week%204/images/Content%20Cost%20Function.png)
+  + Style Cost Function:
+
