@@ -29,9 +29,9 @@
 ## **Siamese Network (SNN): Use Siamese network to solve One shot learning problem**
   + A siamese neural network (SNN) is a class of neural network architectures that contain two or more identical sub-networks. “Identical” here means they have the same configuration with the same parameters and weights.
   + it’s used to find similarities between  inputs by comparing its feature vectors
-<img src="/home/tuandinh/Desktop/Deep Learning/Deep-Learning-Specialization-Coursera/C4 - Convolutional Neural Networks/Week 4/images/Siamese Network.png" alt="1" width="500" height="250">
+  + ![Siamese Networks](https://github.com/denotevn/Deep-Learning-Specialization-Coursera/blob/main/C4%20-%20Convolutional%20Neural%20Networks/Week%204/images/Siamese%20Network.png)
   + As we can see they compute diferrence between two images, and vertification
-<img src="/home/tuandinh/Desktop/Deep Learning/Deep-Learning-Specialization-Coursera/C4 - Convolutional Neural Networks/Week 4/images/SNN learning.png" alt="1" width="500" height="250">
+  ![SSN learning](https://github.com/denotevn/Deep-Learning-Specialization-Coursera/blob/main/C4%20-%20Convolutional%20Neural%20Networks/Week%204/images/SNN%20learning.png)
 
 ## **Face REcognition: Triplet Loss**
   + A-Anchor, P-Positive image, N-Negative images
@@ -48,8 +48,7 @@
   + ||f(A) - f(P)||^2 + alpha <= ||f(A)-f(N)||^2)
 ## **Face Verification and Binary Classification:**
   + Alternatives to triplet loss
-  + <img src="/home/tuandinh/Desktop/Deep Learning/Deep-Learning-Specialization-Coursera/C4 - Convolutional Neural Networks/Week 4/images/Bianry classification video.png" alt="1" width="450" height="200">
-
+  + ![Binary clf](https://github.com/denotevn/Deep-Learning-Specialization-Coursera/blob/main/C4%20-%20Convolutional%20Neural%20Networks/Week%204/images/SNN%20learning.png)
 
 ## **What is Neural Style Transfer?**
   + Create a new image from the style of another image
