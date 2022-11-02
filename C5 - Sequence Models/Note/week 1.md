@@ -23,7 +23,8 @@
   + This allows a unidirectional (one-way) RNN to take information from the past to process later inputs. A bidirectional (two-way) RNN can take context from both the past and the future, much like Marty McFly.
   + ![Basic RNN](https://github.com/denotevn/Deep-Learning-Specialization-Coursera/blob/main/C5%20-%20Sequence%20Models/Week%201/images/Basic%20RNN.png)
 > **Forward RNN:**
-  + ![Forward]()
+  + ![Forward](https://github.com/denotevn/Deep-Learning-Specialization-Coursera/blob/main/C5%20-%20Sequence%20Models/Week%201/images/Forward%20RNN.png)
+  + We need to concatenate a_t with a_{t-1}
   + The recurrent neural network, or RNN, is essentially the repeated use of a single cell.
   + A basic RNN reads inputs one at a time, and remembers information through the hidden layer activations (hidden states) that are passed from one time step to the next.
   + The time step dimension determines how many times to re-use the RNN cell (Tx)
@@ -33,6 +34,8 @@
   + Each cell has two outputs at each time step:
      + A hidden state
      + A prediction
+## **Forward and Backward**
+  + ![Forwawaed and backward]()
 
 ## **Long Short-Term Memory (LSTM) Network:**
   + ![Basic LSTM](https://github.com/denotevn/Deep-Learning-Specialization-Coursera/blob/main/C5%20-%20Sequence%20Models/Week%201/images/LSTM.png)
