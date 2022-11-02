@@ -35,7 +35,7 @@
      + A hidden state
      + A prediction
 ## **Forward and Backward**
-  + ![Forwawaed and backward]()
+  + ![Forwawaed and backward](https://github.com/denotevn/Deep-Learning-Specialization-Coursera/blob/main/C5%20-%20Sequence%20Models/Week%201/images/Forward%20and%20Backward%20RNN.png)
 
 ## **Long Short-Term Memory (LSTM) Network:**
   + ![Basic LSTM](https://github.com/denotevn/Deep-Learning-Specialization-Coursera/blob/main/C5%20-%20Sequence%20Models/Week%201/images/LSTM.png)
