@@ -17,6 +17,7 @@
   + Apply an LSTM to a music generation task
 
 ## **RNN:**
+  + ![RNN]()
   + Recurrent Neural Networks (RNN) are very effective for Natural Language Processing and other sequence tasks because they have "memory.
   + They can read inputs $x^{\langle t \rangle}$ (such as words) one at a time, and remember some contextual information through the hidden layer activations that get passed from one time step to the next.
   + This allows a unidirectional (one-way) RNN to take information from the past to process later inputs. A bidirectional (two-way) RNN can take context from both the past and the future, much like Marty McFly.
@@ -43,3 +44,4 @@
       + When a unit in the update gate is close to 1, the value of its candidate is passed on to the hidden state
       + When a unit in the update gate is close to 0, it's prevented from being passed onto the hidden state.
     + And an output gate, which decides what gets sent as the output of the time step
+
