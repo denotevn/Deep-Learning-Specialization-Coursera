@@ -17,12 +17,13 @@
   + Apply an LSTM to a music generation task
 
 ## **RNN:**
-  + ![RNN]()
+  + ![RNN](https://github.com/denotevn/Deep-Learning-Specialization-Coursera/blob/main/C5%20-%20Sequence%20Models/Week%201/images/RNN.png)
   + Recurrent Neural Networks (RNN) are very effective for Natural Language Processing and other sequence tasks because they have "memory.
   + They can read inputs $x^{\langle t \rangle}$ (such as words) one at a time, and remember some contextual information through the hidden layer activations that get passed from one time step to the next.
   + This allows a unidirectional (one-way) RNN to take information from the past to process later inputs. A bidirectional (two-way) RNN can take context from both the past and the future, much like Marty McFly.
   + ![Basic RNN](https://github.com/denotevn/Deep-Learning-Specialization-Coursera/blob/main/C5%20-%20Sequence%20Models/Week%201/images/Basic%20RNN.png)
 > **Forward RNN:**
+  + ![Forward]()
   + The recurrent neural network, or RNN, is essentially the repeated use of a single cell.
   + A basic RNN reads inputs one at a time, and remembers information through the hidden layer activations (hidden states) that are passed from one time step to the next.
   + The time step dimension determines how many times to re-use the RNN cell (Tx)
