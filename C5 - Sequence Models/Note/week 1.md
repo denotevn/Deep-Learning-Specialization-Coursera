@@ -20,7 +20,7 @@
   + Recurrent Neural Networks (RNN) are very effective for Natural Language Processing and other sequence tasks because they have "memory.
   + They can read inputs $x^{\langle t \rangle}$ (such as words) one at a time, and remember some contextual information through the hidden layer activations that get passed from one time step to the next.
   + This allows a unidirectional (one-way) RNN to take information from the past to process later inputs. A bidirectional (two-way) RNN can take context from both the past and the future, much like Marty McFly.
-  + ![Basic RNN]()
+  + ![Basic RNN](https://github.com/denotevn/Deep-Learning-Specialization-Coursera/blob/main/C5%20-%20Sequence%20Models/Week%201/images/Basic%20RNN.png)
 > **Forward RNN:**
   + The recurrent neural network, or RNN, is essentially the repeated use of a single cell.
   + A basic RNN reads inputs one at a time, and remembers information through the hidden layer activations (hidden states) that are passed from one time step to the next.
@@ -33,7 +33,7 @@
      + A prediction
 
 ## **Long Short-Term Memory (LSTM) Network:**
-  + ![Basic LSTM]()
+  + ![Basic LSTM](https://github.com/denotevn/Deep-Learning-Specialization-Coursera/blob/main/C5%20-%20Sequence%20Models/Week%201/images/LSTM.png)
   + An LSTM is similar to an RNN in that they both use hidden states to pass along information, but an LSTM also uses a cell state, which is like a long-term memory, to help deal with the issue of vanishing gradients
   + An LSTM cell consists of a cell state, or long-term memory, a hidden state, or short-term memory, along with 3 gates that constantly update the relevancy of its inputs:
     + A forget gate, which decides which input units should be remembered and passed along. It's a tensor with values between 0 and 1
