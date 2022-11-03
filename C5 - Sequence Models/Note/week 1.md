@@ -48,4 +48,6 @@
       + When a unit in the update gate is close to 1, the value of its candidate is passed on to the hidden state
       + When a unit in the update gate is close to 0, it's prevented from being passed onto the hidden state.
     + And an output gate, which decides what gets sent as the output of the time step
-
+## **Type of RNN:**
+  + ![Examples sequens input]()
+  + ![Type]()
