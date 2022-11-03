@@ -49,5 +49,5 @@
       + When a unit in the update gate is close to 0, it's prevented from being passed onto the hidden state.
     + And an output gate, which decides what gets sent as the output of the time step
 ## **Type of RNN:**
-  + ![Examples sequens input]()
-  + ![Type]()
+  + ![Examples sequens input](https://github.com/denotevn/Deep-Learning-Specialization-Coursera/blob/main/C5%20-%20Sequence%20Models/Week%201/images/Examples%20sequens%20model.png)
+  + ![Type](https://github.com/denotevn/Deep-Learning-Specialization-Coursera/blob/main/C5%20-%20Sequence%20Models/Week%201/images/Type%20RNN.png)
