@@ -66,4 +66,30 @@
       + The first thing is to get a training set: a large corpus of target language text.
       + Then tokenize this training set by getting the vocabulary and then one-hot each word.
       + Put an end of sentence token <EOS> with the vocabulary and include it with each converted sentence. Also, use the token <UNK> for the unknown words.
+    + Given the sentence "Cats average 15 hours of sleep a day <EOS>"
+      + Traning: 
+      + ![Training](https://github.com/denotevn/Deep-Learning-Specialization-Coursera/blob/main/C5%20-%20Sequence%20Models/Week%201/images/Training%20with%20RNN.png)
+## **Sampling Novel Sequences:**
+  + After a sequence model is trained on a language model, to check what the model has learned you can apply it to sample novel sequence.
+  + Lets see the steps of how we can sample a novel sequence from a trained sequence language model:
+    + Given this model:
+    ![Sampling]()
+    + a<0> and x<1> is zeros vetors
+    + Then we choose a prediction randomly from distribution obtained by ŷ<1>. For example it could be "The".
+      + In numpy this can be implemented using: numpy.random.choice(...)
+      + This is the line where you get a random beginning of the sentence each time you sample run a novel sequence.
+      + We pass the last predicted word with the calculated a<1>
+      + We keep doing 3 & 4 steps for a fixed length or until we get the <EOS> token.
+      + You can reject any <UNK> token if you mind finding it in your output.
+    + So far we have to build a word-level language model. It's also possible to implement a character-level language model.
+    + In the character-level language model, the vocabulary will contain [a-zA-Z0-9], punctuation, special characters and possibly token.
+    + Character-level language model has some pros and cons compared to the word-level language model
+      + Pros:
+        + here will be no <UNK> token - it can create any word.
+      + Cons:
+        + The main disadvantage is that you end up with much longer sequences
+        + Character-level language models are not as good as word-level language models at capturing long range dependencies between how the the earlier parts of the sentence also affect the later part of the sentence
+        + Also more computationally expensive and harder to train.
+    + The trend Andrew has seen in NLP is that for the most part, a word-level language model is still used, but as computers get faster there are more and more applications where people are, at least in some special cases, starting to look at more character-level models. Also, they are used in specialized applications where you might need to deal with unknown words or other vocabulary words a lot. Or they are also used in more specialized applications where you have a more specialized vocabulary.
+
 
