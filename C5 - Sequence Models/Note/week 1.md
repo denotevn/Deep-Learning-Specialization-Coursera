@@ -51,3 +51,19 @@
 ## **Type of RNN:**
   + ![Examples sequens input](https://github.com/denotevn/Deep-Learning-Specialization-Coursera/blob/main/C5%20-%20Sequence%20Models/Week%201/images/Examples%20sequens%20model.png)
   + ![Type](https://github.com/denotevn/Deep-Learning-Specialization-Coursera/blob/main/C5%20-%20Sequence%20Models/Week%201/images/Type%20RNN.png)
+
+## **Language Model and Sequence Generation:**
+  + What is language modeling?
+  + Speech recognition:
+    + s1 = The apple and pair salad
+    + s2 = The apple and pear salad
+    + Pair and pear sounds exactly the same, so how would a speech recognition application choose from the two.
+    + That's where the language model comes in. It gives a probability for the two sentences and the application decides the best based on this probability
+      + P(s1) = 3.2*10^-13
+      + P(s2) = 5.7*10^-10
+    + P(sentences) = ?
+    + **How to build language models with RNNs?**
+      + The first thing is to get a training set: a large corpus of target language text.
+      + Then tokenize this training set by getting the vocabulary and then one-hot each word.
+      + Put an end of sentence token <EOS> with the vocabulary and include it with each converted sentence. Also, use the token <UNK> for the unknown words.
+
